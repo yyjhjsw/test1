@@ -32,6 +32,7 @@ def main(url):
     html = get_url(url)
     next_content = parse_page(html)
     next_p = next_page(next_content)
+    print(next_p)
 
 
 if __name__ == '__main__':
